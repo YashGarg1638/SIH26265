@@ -10,7 +10,6 @@ client/dist-demo/
 # Submission documents are kept out of the public repo
 *.pptx
 JanHash_*.pdf
-Yash_*.pdf
 # Demo video renders and source audio
 *.mp4
 *.mpeg

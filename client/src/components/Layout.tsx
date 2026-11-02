@@ -14,7 +14,7 @@ import { CommandPalette } from './CommandPalette';
 import { SecurityHudModal } from './SecurityHudModal';
 import { FdrCalculatorModal } from './FdrCalculatorModal';
 
-/** Institutional security mark for Team Yash / AICTE SD-FDR portal. */
+/** Institutional security mark for JanHash Tacklers / AICTE SD-FDR portal. */
 export function LogoMark({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 40 40" className={clsx('size-10 shrink-0', className)} fill="none" aria-hidden>
@@ -111,7 +111,7 @@ export default function Layout() {
             <Outlet />
           </main>
           <footer className="no-print px-6 pb-5 text-center text-[11px] text-muted">
-            {DEMO ? 'Live demo running in your browser · ' : 'Demo build · '}synthetic data: all institutions, officials, deposits and bank records are fictional · SIH 2026 · SIH26265 · Team Yash
+            {DEMO ? 'Live demo running in your browser · ' : 'Demo build · '}synthetic data: all institutions, officials, deposits and bank records are fictional · SIH 2026 · SIH26265 · Team JanHash Tacklers
           </footer>
         </div>
       </div>
@@ -181,7 +181,7 @@ function Drawer({ items, onClose }: { items: NavLeaf[]; onClose: () => void }) {
           </NavLink>
         ))}
       </nav>
-      <div className="eyebrow text-[9.5px] text-white/40">SIH26265 · Team Yash</div>
+      <div className="eyebrow text-[9.5px] text-white/40">SIH26265 · Team JanHash Tacklers</div>
     </div>
   );
 }

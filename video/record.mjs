@@ -165,7 +165,7 @@ fs.writeFileSync(path.join(OUT, 'trim.txt'), String((t0 - videoStart) / 1000));
 // ================= PART 1 · Opening and the problem (0:00–0:39) =================
 await card(`${LOGO}<div class="eyebrow" style="margin-top:28px">Smart India Hackathon 2026 · SIH26265 · AICTE Regulation Bureau</div>
   <h1>Streamline of security<br>deposit / <span class="lime">FDR portal</span></h1>
-  <p>Team Yash</p>`);
+  <p>Team JanHash Tacklers</p>`);
 await at(9.2, 'what is an FDR');
 await card(`<span class="tag">Background</span>
   <h1>When a college gets AICTE approval,<br>it keeps money with AICTE<br>as a <span class="lime">safety deposit</span>.</h1>
@@ -443,7 +443,7 @@ await at(236.1, 'c3'); await showItem(2);
 await at(239.2, 'c4'); await showItem(3);
 await at(243.4, 'closing card');
 await card(`${LOGO}<div class="eyebrow" style="margin-top:26px">AICTE Security Deposit / FDR Portal</div>
-  <p>Team Yash · SIH 2026 · SIH26265 · AICTE Regulation Bureau</p>`);
+  <p>Team JanHash Tacklers · SIH 2026 · SIH26265 · AICTE Regulation Bureau</p>`);
 await at(END, 'end');
 
 await ctx.close();

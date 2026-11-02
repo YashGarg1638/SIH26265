@@ -1,6 +1,6 @@
 #!/bin/sh
 # Builds the final video from the recording (record.mjs), the speakers' audio and the captions.
-#   sh make.sh   → out/Yash_SIH26265_Demo.mp4 (captions as a switchable track) + out/captions.srt
+#   sh make.sh   → out/JanHash_Tacklers_SIH26265_Demo.mp4 (captions as a switchable track) + out/captions.srt
 set -e
 cd "$(dirname "$0")"
 python3 captions.py
@@ -14,5 +14,5 @@ ffmpeg -loglevel error -y \
   -af apad -c:a aac -b:a 192k \
   -c:s mov_text -metadata:s:s:0 language=eng \
   -t 249.3 -movflags +faststart \
-  out/Yash_SIH26265_Demo.mp4
-ffprobe -v error -show_entries format=duration,size -of compact out/Yash_SIH26265_Demo.mp4
+  out/JanHash_Tacklers_SIH26265_Demo.mp4
+ffprobe -v error -show_entries format=duration,size -of compact out/JanHash_Tacklers_SIH26265_Demo.mp4

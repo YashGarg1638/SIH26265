@@ -7,8 +7,8 @@ import json
 import re
 
 FIXES = [
-    (r'\bVerangians\b', 'Team Yash'),
-    (r'\bVarangians\b', 'Team Yash'),
+    (r'\bVerangians\b', 'JanHash Tacklers'),
+    (r'\bVarangians\b', 'JanHash Tacklers'),
     (r'\bSIH 26265\b', 'SIH26265'),
     (r'\bAIC, AICTS name\b', "AICTE's name"),
     (r'\bThe line part\b', 'The lime part'),

@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 echo ========================================================
 echo  AICTE SD/FDR Portal - Pushing to YashGarg1638/SIH26265
-echo  Team Yash
+echo  Team JanHash Tacklers
 echo ========================================================
 echo.
 
@@ -25,7 +25,7 @@ echo Adding all updated files...
 git add .
 
 echo Creating commit...
-git commit -m "feat: AICTE SD/FDR Portal by Team Yash - Obsidian Dark Theme & Command Center"
+git commit -m "feat: AICTE SD/FDR Portal by Team JanHash Tacklers - Obsidian Dark Theme & Command Center"
 
 echo Setting remote repository...
 git remote remove origin >nul 2>&1

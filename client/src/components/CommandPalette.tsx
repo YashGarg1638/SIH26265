@@ -392,7 +392,7 @@ export function CommandPalette({ open, onClose, onOpenSecurityHud, onOpenCalcula
             <span><kbd className="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px]">↵</kbd> select</span>
             <span><kbd className="rounded bg-white/10 px-1 py-0.5 font-mono text-[10px]">esc</kbd> close</span>
           </div>
-          <span className="font-semibold text-zinc-300">Team Yash</span>
+          <span className="font-semibold text-zinc-300">Team JanHash Tacklers</span>
         </div>
 
       </div>

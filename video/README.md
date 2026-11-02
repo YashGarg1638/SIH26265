@@ -38,7 +38,7 @@ curl -L -o models/ggml-small.en.bin https://huggingface.co/ggerganov/whisper.cpp
    node record.mjs && sh make.sh
    ```
 
-Output: `out/Yash_SIH26265_Demo.mp4` (1920×1080, captions as a switchable track) and `out/captions.srt`.
+Output: `out/JanHash_Tacklers_SIH26265_Demo.mp4` (1920×1080, captions as a switchable track) and `out/captions.srt`.
 
 ## How it works
 

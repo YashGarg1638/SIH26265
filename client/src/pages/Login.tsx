@@ -88,7 +88,7 @@ export default function Login() {
               </div>
             </div>
           )}
-          <p className="mt-8 text-center text-[11px] text-muted">SIH26265 · Team Yash</p>
+          <p className="mt-8 text-center text-[11px] text-muted">SIH26265 · Team JanHash Tacklers</p>
         </div>
       </div>
     </div>
