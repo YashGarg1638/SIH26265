@@ -1,0 +1,17 @@
+node_modules/
+client/dist/
+server/data/
+server/uploads/*
+!server/uploads/.gitkeep
+.DS_Store
+*.log
+client/dist-demo/
+.claude/
+# Submission documents are kept out of the public repo
+*.pptx
+JanHash_*.pdf
+Yash_*.pdf
+# Demo video renders and source audio
+*.mp4
+*.mpeg
+*.srt
